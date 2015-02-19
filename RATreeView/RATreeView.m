@@ -550,6 +550,12 @@
   [self.tableView zoomToRect:rect animated:animated];
 }
 
+#pragma mark - Pull to Refresh
+
+- (void)addResreshControl:(UIRefreshControl *)refreshControl
+{
+    [self.tableView addSubview:refreshControl];
+}
 
 #pragma mark - 
 

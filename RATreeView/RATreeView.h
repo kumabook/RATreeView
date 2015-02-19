@@ -640,5 +640,12 @@ typedef enum RATreeViewRowAnimation {
 @property (nonatomic, readonly) BOOL zooming;
 @property (nonatomic) BOOL bouncesZoom;
 
+
+///------------------------------------------------
+/// @name Pull to Refresh
+///------------------------------------------------
+
+- (void)addResreshControl:(UIRefreshControl *)refreshControl;
+
 @end
 
